@@ -1,0 +1,1 @@
+delete from breeding_info where dog_id = $1;

@@ -1,0 +1,82 @@
+@import '../SASS/mixin';
+@import '../SASS/variables';
+
+.mainform{
+    margin: 100px;
+    padding: 100px;
+    box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
+
+  }
+
+  .signup{
+    text-align: center;
+  }
+
+// .floral-image {
+//     background-image: url('floral.jpg');
+//     width: 100vw ;
+//     height: 100vh;
+//     background-repeat: no-repeat;
+//     background-size: cover; 
+//     display: flex;
+//     // justify-content: space-between;
+//     align-items: center;
+// }
+
+// .form {
+//     background-color: white;
+//     color: $blackCoral;
+//     height: 100vh;
+//     padding-bottom: 50px;
+//     // @include flexOne(space-evenly);
+// }
+
+// .form-container {
+//     // background-color: blue;
+
+// }
+
+// .accountInfo {
+//     @include column();
+//     width: 40%;
+//     font-weight: 600;
+//     margin-top: 55px;
+// }
+
+// .form-button {
+//     @include button();
+//     font-size: 20px;
+//     font-weight: 700;
+//     height: 50px;
+//     width: 105px;
+//     border-radius: 5px;
+// }
+
+// .button-container {
+//     display: flex;
+//     // justify-content: space-between;
+//     padding-top: 75px;
+// }
+
+// .profile-image {
+//     width: 200px;
+//     height: 200px;
+//     border-radius: 360px;
+// }
+
+// .profile {
+//     // background-color: #C7D8D3;
+//     @include column();
+//     width: 350px;
+//     font-weight: 600;
+//     // margin-top: 55px;
+// }
+
+// .breeding-info {
+//     // background-color: #C7D8D3;
+//     @include column();
+//     width: 350px;
+//     font-weight: 600;
+// }
+
+

@@ -1,0 +1,31 @@
+@mixin flexOne($space){
+    display: flex;
+    justify-content: $space ;
+    align-items: center;
+}
+
+@mixin font() {
+    color: $blackCoral;
+    font-size: 15px;
+    font-family: aktiv-grotesk,arial,sans-serif;
+}
+
+@mixin button() {
+    background-color: $queenPink;
+    color: white;
+    border: none;
+    padding: 1px 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+@mixin column() {
+    display: flex;
+    flex-direction: column;
+    line-height: 4rem;
+}
+
+@mixin hoverShadow() {
+    border-color: $rosyBrown;
+    box-shadow: 4px 2px 2px 2px $palePink;
+}

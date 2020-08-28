@@ -1,0 +1,43 @@
+// @import '../SASS/mixin';
+// @import '../SASS/variables';
+
+.mainform {
+  margin: 100px;
+  padding: 100px;
+}
+
+// .contact {
+//     display: flex;
+//     flex-direction: column;
+//     line-height: 4rem;
+//     width: 50%;
+//     align-items: center;
+//     float: left;
+// }
+
+// .contact-container {
+//     background-color: $cultured;
+//     color: $blackCoral;
+//     height: 100vh;
+//     padding-bottom: 50px;
+//     @include flexOne(space-evenly);
+// }
+
+.profile-image {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5c2aec4b1137a6d8849debf1/1593093267951-IIC2P4M1IWLZCYJZ10V7/ke17ZwdGBToddI8pDm48kAj1zjpcuVRLk8sbm6E4yspZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVF55n-WDXnA7C9g_L9cYXc7Mw41dIA-4YKrGuntMoiWE91lH3P2bFZvTItROhWrBJ0/DAnthony2-small.png?format=1000w");
+  height: 25vh;
+  width: 25vw;
+//   float: left;
+//   margin-left: 100px;
+  background-repeat: no-repeat;
+  border-radius: 360px;
+}
+
+// .contact-form {
+//     display: flex;
+//     flex-direction: column;
+//     line-height: 4rem;
+//     width: 50%;
+//     align-items: center;
+//     float: right;
+// }

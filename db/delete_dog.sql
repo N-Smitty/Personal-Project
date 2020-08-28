@@ -1,0 +1,1 @@
+delete from dog_profile where dog_id = $1;

@@ -1,0 +1,62 @@
+@import '../SASS/mixin';
+@import '../SASS/variables';
+
+// .App {
+//     background-color: $platinum;
+//     display: flex;
+    
+// }
+
+// /* progress bar styles */
+
+// .progress-bar {
+//     height: 5px;
+//     background: rgb(180, 136, 41);
+//     margin-top: 20px;
+//   }
+  
+//   /* image grid */
+//   .img-grid {
+//     margin: 20px auto;
+//     display: grid;
+//     grid-template-columns: 5fr 5fr 5fr;
+//     grid-gap: 25px;
+//   }
+  
+//   .img-wrap {
+//     overflow: hidden;
+//     height: 0;
+//     padding: 50% 0;
+//     position: relative;
+//     opacity: 0.8;
+//   }
+  
+//   .img-wrap img {
+//     min-width: 100%;
+//     min-height: 100%;
+//     max-width: 100%;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//   }
+  
+//   /* modal styles */
+  
+//   .backdrop {
+//     position: fixed;
+//     margin-top: 5%;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: rgba(0, 0, 0, 0.3);
+//   }
+  
+//   .backdrop img {
+//     display: block;
+//     max-width: 60%;
+//     max-height: 80%;
+//     margin: 80px auto;
+//     box-shadow: 3px 6px 8px rgba(0, 0, 0.2, 0.6);
+//     border: 4px solid white;
+//   }
