@@ -11,6 +11,9 @@ import {
   Label,
   Header,
   Divider,
+  Message,
+  Card,
+  Image
 } from "semantic-ui-react";
 import pic from "./Profilepic.jpg";
 import floral from "./floral.jpg";
@@ -46,9 +49,9 @@ class AccountView extends Component {
 
   render() {
     return (
-      <div class="ui horizontal segments">
+    <div class="ui horizontal segments">
         <Segment class="form">
-          {/* <img src={floral} alt="floral" className="floral-image" /> */}
+          <img src={floral} alt="floral" className="floral-image" />
           <Header as="h2">
             <Icon name="settings" />
             <Header.Content>
@@ -98,7 +101,6 @@ class AccountView extends Component {
                       <p>Breed: {e.breed}</p>
                       <p>Heat #: {e.heat_number}</p>
                       <Divider />
-                      {/* <p>{e.dog_id}</p> */}
                       <h6>Breeding Info:</h6>
                       <p>Insemination:{e.insemination_type}</p>
                       <p>Progesterone Level:{e.ng_ml}</p>
@@ -109,7 +111,52 @@ class AccountView extends Component {
               })}
           </Segment>
         </Segment>
-      </div>
+        
+        {/* <div class="card">
+           <div class="image">
+          <div class="ui placeholder">
+            <div class="square image">
+             <img */}
+      //             class="square image"
+      //             src={pic}
+      //             alt="profilePic"
+      //           />
+      //         </div>
+      //       </div>
+      //       <div class="content">
+      //         <a class="header">Natalie Gutierrez Smith</a>
+      //         <div class="meta">
+      //           <a>Full Stack Web Developer</a>
+      //         </div>
+      //         <div class="description1">
+      //           <b>Natalie is a Web Developer from Utah.</b>
+      //           <div class="extra content">
+      //             <div class="ui  primary button">Add Dog</div>
+      //             <div class="ui  button">Edit Profile</div>
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+      // </div>
+{/* <Card>
+<Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
+<Card.Content>
+  <Card.Header>Matthew</Card.Header>
+  <Card.Meta>
+    <span className='date'>Joined in 2015</span>
+  </Card.Meta>
+  <Card.Description>
+    Matthew is a musician living in Nashville.
+  </Card.Description>
+</Card.Content>
+<Card.Content extra>
+  <a>
+    <Icon name='user' />
+    22 Friends
+  </a>
+</Card.Content>
+</Card> */}
     );
   }
 }

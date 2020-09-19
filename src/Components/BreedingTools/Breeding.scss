@@ -1,5 +1,10 @@
-// @import '../SASS/mixin';
-// @import '../SASS/variables';
+@import '../SASS/mixin';
+@import '../SASS/variables';
+
+.progress-bar{
+    background-color: rosybrown;
+    color: rosybrown;
+}
 
 // .form {
 //     background-color: $cultured;

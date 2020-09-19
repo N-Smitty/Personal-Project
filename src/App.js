@@ -5,10 +5,9 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import { connect } from "react-redux";
 import axios from "axios";
-import {updateUser} from './Redux/userReducer';
-import 'semantic-ui-css/semantic.min.css'
-import { Container } from 'semantic-ui-react'
-
+import { updateUser } from "./Redux/userReducer";
+import "semantic-ui-css/semantic.min.css";
+import { Responsive, Segment, Container } from "semantic-ui-react";
 
 function App(props) {
   // useEffect(() => {
@@ -18,18 +17,19 @@ function App(props) {
   // });
 
   return (
-    <Container className='main'>
-  <HashRouter>
-      <div>
-        <Header />
-        {routes}
-      </div>
-    </HashRouter>
-    </Container>
-  
+    <Responsive as={Segment} minWidth={320} maxWidth={2559}>
+      <Container className="main">
+        <HashRouter>
+          <div>
+            <Header />
+            {routes}
+          </div>
+        </HashRouter>
+      </Container>
+    </Responsive>
   );
 }
 
 const mapStateToProps = (state) => state;
 
-export default connect(mapStateToProps, {updateUser})(App);
+export default connect(mapStateToProps, { updateUser })(App);

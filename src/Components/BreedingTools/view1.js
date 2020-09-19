@@ -88,7 +88,7 @@ class view1 extends Component {
             </Button>
           </div>
         </Segment>
-        <Progress value="2" total="3" progress="ratio" />
+        <Progress value="3" total="4" progress="ratio" />
       </Container>
     );
   }

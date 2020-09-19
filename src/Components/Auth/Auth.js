@@ -7,7 +7,7 @@ import { updateUser } from "../../Redux/userReducer";
 import { connect } from "react-redux";
 import "./Auth.scss";
 // import floral from "./floral.jpg";
-import { Segment, Button, Form, Icon, Message } from "semantic-ui-react";
+import { Segment, Button, Form, Icon, Message, Header } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 
 class Auth extends Component {
@@ -94,8 +94,18 @@ class Auth extends Component {
   render() {
     // console.log(this.props);
     return (
-      <div className="mainform">
+      
+      <Form >
         <Segment style={{ maxWidth: 620 }}>
+         <Header as="h2" color="black" textAlign="center">
+            <img
+              class="ui massive circular image"
+              src="https://res.cloudinary.com/dfgz2wntk/image/upload/v1598043093/socialogowhite_p8ql3j.png"
+            />{" "}
+             <div className='login'>
+          Log-in to your account
+              </div>
+          </Header>
           <div textAlign="center" className="form-container">
             {/* <div>
         <img src={floral} alt="floral" className="floral-image" />
@@ -155,6 +165,7 @@ class Auth extends Component {
                 placeholder="password"
                 value={this.state.password}
                 name="password"
+                type="password"
                 onChange={(e) => this.handleInput(e)}
               />
               {/* while the inputs are the same for login and register, the buttons need to switch. That's what this conditional rendering does below */}
@@ -202,7 +213,7 @@ class Auth extends Component {
             </Form>
           </div>
         </Segment>
-      </div>
+      </Form>
     );
   }
 }

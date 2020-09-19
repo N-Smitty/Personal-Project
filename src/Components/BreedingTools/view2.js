@@ -22,7 +22,7 @@ class view2 extends Component {
       timeTaken: this.props.dog.timeTaken,
       nanograms: this.props.dog.nanograms,
     };
-    console.log("data: ", data)
+    console.log("data: ", data);
     axios
       .put("/api/dog/update", data)
       .then((res) => this.setState({ results: res.data }))
@@ -46,7 +46,12 @@ class view2 extends Component {
             <ModalComp />
           </div>
         </Segment>
-        <Progress value="3" total="3" progress="ratio" color="teal" />
+        <Progress
+          value="4"
+          total="4"
+          progress="ratio"
+          className="progress-bar"
+        />
       </Container>
     );
   }
